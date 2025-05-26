@@ -1,0 +1,159 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .gridview th {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+    }
+
+    .gridview td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .gridview tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .gridview tr:hover {
+        background-color: #d1e7fd;
+        cursor: pointer;
+    }
+
+#btnCalculaSalario {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    #btnCalculaSalario:hover {
+        background-color: #218838;
+    }
+
+.form-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.form-input {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .form-button:hover {
+        background-color: #0056b3;
+    }
+
+.hidden {
+    display: none;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    font-family: Arial;
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login-container .form-group {
+        margin-bottom: 15px;
+    }
+
+        .login-container .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .login-container .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+    .login-container .btn {
+        width: 100%;
+        padding: 10px;
+        background: #28a745;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        .login-container .btn:hover {
+            background: #218838;
+        }
+
+    .login-container .link {
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+    }

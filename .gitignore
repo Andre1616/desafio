@@ -1,0 +1,14 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/desafio/.vs/desafio
+/desafio/desafio/App_Start
+/desafio/desafio/bin/pt-br
+/desafio/desafio/bin
+/desafio/desafio/Content
+/desafio/desafio/.vs
+/desafio/desafio/obj/Debug
+/desafio/desafio/Properties
+/desafio/desafio/RPTS
+/desafio/desafio/Scripts
